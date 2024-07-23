@@ -39,7 +39,7 @@ useEffect(()=>{
   return()=>unsubscribe();
 },[]);
   return (
-    <div className="absolute px-2 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between">
+    <div className="absolute px-2 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between ">
         <img className="w-36"src={logo} alt="Netflix_logo"/>
 
     {user &&(<div className='p-4 flex'> 
